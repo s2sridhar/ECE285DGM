@@ -1,0 +1,24 @@
+.venv/
+.vscode/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.ruff_cache/
+
+# Downloaded datasets and generated training artifacts
+data/
+**/data/
+checkpoints/
+**/checkpoints/
+runs/
+**/runs/
+*.pt
+*.pth
+
+# other
+report_template/
+**/report/
+
+# temp
+final_project/*
