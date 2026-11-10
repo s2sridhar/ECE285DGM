@@ -6,7 +6,6 @@ __pycache__/
 .ipynb_checkpoints/
 .ruff_cache/
 
-# Downloaded datasets and generated training artifacts
 data/
 **/data/
 checkpoints/
@@ -16,9 +15,7 @@ runs/
 *.pt
 *.pth
 
-# other
 report_template/
 **/report/
 
-# temp
-final_project/*
+!final_project/src/data/
